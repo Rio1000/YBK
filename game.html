@@ -14,6 +14,7 @@
             height: 100vh;
             margin: 0;
         }
+
         #game-container {
             background-color: #ffffff;
             padding: 20px;
@@ -23,6 +24,7 @@
             max-width: 600px;
             width: 100%;
         }
+        
         h1 {
             color: #333;
         }
@@ -37,6 +39,7 @@
             transition: background-color 0.3s ease;
             border-width: 3px;
             border-color: black;
+            margin-bottom: 10px;
         }
         button:hover {
             background-color: #c9c9c9;
@@ -86,7 +89,7 @@
         <div id="boss-battle">
             <h2>Boss Battle: The Plagiarism Dragon</h2>
             <p id="boss-question"></p>
-            <input type="text" id="boss-answer" placeholder="Type your answer here" style="padding: 10px; width: calc(100% - 22px); border-radius: 5px; border: 1px solid #ccc;">
+            <input type="text" id="boss-answer" placeholder="Type your answer here" style="padding: 10px; width: calc(100% - 22px); border-radius: 5px; border: 3px solid black;margin-bottom: 10px;">
             <button id="submit-answer">Submit Answer</button>
             <p id="boss-result"></p>
         </div>
